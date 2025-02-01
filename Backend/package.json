@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@upstash/redis": "^1.34.3",
+    "@vitalets/google-translate-api": "^9.2.1",
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "google-translate-api": "^2.3.0",
+    "google-translate-api-x": "^10.7.2",
+    "google-translate-open-api": "^1.3.7",
+    "http-proxy-agent": "^7.0.2",
+    "ioredis": "^5.4.2",
+    "mongoose": "^8.9.5",
+    "redis": "^4.7.0"
+  }
+}
